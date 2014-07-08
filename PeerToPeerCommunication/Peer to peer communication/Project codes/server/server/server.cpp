@@ -1,3 +1,8 @@
+//This code is for the server. When the peer joins the network, the server adds the peer along with the details of files
+//it has for sharing. Server helps peer find files it is looking for
+//When the peer receives a new file, the server updates its entry table
+//Server removes the peer's entry from the table when the peer exits the network
+
 #include "stdafx.h"
 #include "server.h"
 #include <sstream>
